@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="19" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Grass Block" tilewidth="32" tileheight="32">
+  <image source="assets/PlanetCute PNG/Grass Block.png" width="101" height="171"/>
+ </tileset>
+ <tileset firstgid="16" name="sky" tilewidth="32" tileheight="32">
+  <image source="assets/sky.JPG" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="466" name="Tree Ugly" tilewidth="32" tileheight="32">
+  <image source="assets/PlanetCute PNG/Tree Ugly.png" width="101" height="171"/>
+ </tileset>
+ <tileset firstgid="481" name="Water Block" tilewidth="32" tileheight="32">
+  <image source="assets/PlanetCute PNG/Water Block.png" width="101" height="171"/>
+ </tileset>
+ <tileset firstgid="496" name="Wall Block" tilewidth="32" tileheight="32">
+  <image source="assets/PlanetCute PNG/Wall Block.png" width="101" height="171"/>
+ </tileset>
+ <tileset firstgid="511" name="Character Pink Girl" tilewidth="32" tileheight="32">
+  <image source="assets/PlanetCute PNG/Character Pink Girl.png" width="101" height="171"/>
+ </tileset>
+ <tileset firstgid="526" name="Rock" tilewidth="32" tileheight="32">
+  <image source="assets/PlanetCute PNG/Rock.png" width="101" height="171"/>
+ </tileset>
+ <tileset firstgid="541" name="Dirt Block" tilewidth="32" tileheight="32">
+  <image source="assets/PlanetCute PNG/Dirt Block.png" width="101" height="171"/>
+ </tileset>
+ <imagelayer name="Image Layer 1" width="30" height="19">
+  <image source="assets/sky1.jpg"/>
+ </imagelayer>
+ <layer name="Tile Layer 2" width="30" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztw7kRACAQxLAL+KH/enEVG1kzqpIkSWmNnSN8cnGHH16+8A/sDwMi
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="30" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztjTsKgFAQAzf3P5//b6MoeggD22zxGmGxkAwMgTRjJoQQQvyfCmY1bfBtt2Wvo31Sd4O7hy0x8B/plNQ94J5hS8z8F7omdS+4d9g3PConF/g=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="30" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztzEkKwDAMBEH5/5/N6qwO7nMQgqBTYArmNNBmIiIi/zMUs5FN5duXNdNc2Oq0oy+r0tzY7rSjL+ugebLLaUdf1k2zscdpR99bBxZpHRE=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="30" height="19"/>
+ <layer name="Tile Layer 4" width="30" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztzbcNADAMA0FCTnLaf11zCsIFD/j6ATMzs39EAIXV0H4bf50N8Tf5m2yJv5u/w674q/YAqUgAcw==
+  </data>
+ </layer>
+ <layer name="Tile Layer 5" width="30" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztzbcNADAQw0DhN3CO+89pTaHGOoA1ATMzs3+lADIrof1W/hrr4u/gb7Il/m7+Drvi7wNHlwEn
+  </data>
+ </layer>
+ <layer name="Tile Layer 6" width="30" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztzMkJADAQQlFJJdnX/vuLFcxtCAQffLwJiLwXA5BYNtZD4W9lzVgPnb+DTWM9LP5udowVEfnJBTaBBZs=
+  </data>
+ </layer>
+</map>

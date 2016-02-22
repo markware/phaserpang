@@ -1,0 +1,55 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8" />
+	<title>pang - Getting started</title>
+	<script type="text/javascript" src="phaser.min.js"></script>	<script type="text/javascript" src="app2.js"></script>
+    <style type="text/css">
+        body {
+            margin: 0;
+			background:#222;
+			overflow:hidden;
+        }
+		#pang-example{
+		position:absolute;
+		height:500px;
+		width:700px;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:auto;
+		}
+		.shair{
+		position:absolute;
+		width:100%;
+		text-align:center;
+		bottom:40px;
+		
+		}
+		.logo{
+		position:absolute;
+		text-align:Center;
+		width:100%;
+		top:10px;
+		}
+    </style>
+</head>
+<body>
+<div class="logo">
+<img src="logo.png" alt="Lili min mou spaseis to laptop to kano pio eukolo"/>
+</div>
+<div id="pang-example"></div>
+<div class="shair">
+<div class="fb-share-button" data-href="http://markware.gr/testpad/pang/" data-type="button_count"></div>
+</div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/el_GR/all.js#xfbml=1&appId=733271773364585";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+</html>
